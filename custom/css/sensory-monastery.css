@@ -1,23 +1,12 @@
-/***** HEADER *****/
-header {
-	padding-top: 0;}
-/***** END HEADER *****/
-
+/***** GLOBAL *****/
 article.page {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-family: "orpheuspro", serif;
+	font-family: "orpheuspro", serif !important;
 	margin: 5rem 0 0 0;
 	max-width: 100%;}
-article.page div {
-	display: flex;
-	flex-direction; row;
-	align-items: center;
-	justify-content: space-between;}
-article.page div a {
-	display: block;}
-
+/***** END GLOBAL *****/
 
 /***** ABSTRACT *****/
 .abstract .heading_font {
@@ -44,3 +33,71 @@ article.page div a {
 .footer--abstract a {
 	display: block;}
 /***** END ABSTRACT *****/
+
+/***** HOME *****/
+#home__toc {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6)) , url("../media_large/bkg_toc.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 700px;
+	padding-top: 120px;
+	text-align: center;}
+#home__toc a {
+	background-color: #fff;
+	border-radius: 5px;
+	color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	font-weight: 600;
+	height: 60px;
+	margin-top: 20px;
+	width: 300px;}
+#home__toc .heading_font,
+#home__toc--contents .heading_font {
+	font-family: "orpheuspro", serif !important;}
+#home__toc h1 {
+	font-feature-settings: "salt";
+	font-size: 96px;
+	font-weight: 600;}
+#home__toc h4 {
+	font-size: 24px;
+	line-height: 1.5;}
+#home__toc p {
+	font-size: 21px;
+	line-height: 1.4;
+	margin-top: 24px;
+	max-width: 30%;}
+#home__toc--contents {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;}
+#home__toc--contents h2 {
+	font-size: 48px;}
+#home__toc--contents h3 a {
+	color: #000;}
+#home__toc--contents h3 span {
+	display: block;
+	margin-bottom: 16px;}
+li {
+	list-style: none;}
+#home__contents--portals div {
+	/***display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;***/
+	display: none;
+	height: 200px;}
+article #home__contents--portals div h3.heading_font {
+	font-size: 24 px;}
+article #home__contents--portals div h3.heading_font span {
+	color: blue;
+	display: block;
+	font-size: 18px;}
+/***** END HOME *****/
