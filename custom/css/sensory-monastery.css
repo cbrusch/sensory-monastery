@@ -1,0 +1,46 @@
+/***** HEADER *****/
+header {
+	padding-top: 0;}
+/***** END HEADER *****/
+
+article.page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "orpheuspro", serif;
+	margin: 5rem 0 0 0;
+	max-width: 100%;}
+article.page div {
+	display: flex;
+	flex-direction; row;
+	align-items: center;
+	justify-content: space-between;}
+article.page div a {
+	display: block;}
+
+
+/***** ABSTRACT *****/
+.abstract .heading_font {
+	font-family: "orpheuspro", serif !important;
+	font-feature-settings: "salt";
+	text-align: center;}
+.abstract p {
+	font-family: "sofia-pro", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	max-width: 50%;}
+.abstract p.chapter-number {
+	text-align: center;
+	max-width: 100%;}
+.footer--abstract {
+	display: flex;
+	flex-direction; row;
+	align-items: center;
+	justify-content: space-between;}
+.footer--abstract a {
+	display: block;}
+/***** END ABSTRACT *****/
