@@ -101,3 +101,11 @@ article #home__contents--portals div h3.heading_font span {
 	display: block;
 	font-size: 18px;}
 /***** END HOME *****/
+
+/***** TABLE OF CONTENTS, DROPDOWN MENU *****/
+	.tocMenu .expandedPage .description {
+		display: none;}
+	.tocMenu .chapter__title, 
+	.tocMenu .chapter__title__divider {
+		display: none;}
+/***** END TABLE OF CONTENTS, DROPDOWN MENU *****/
