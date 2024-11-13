@@ -91,6 +91,8 @@ h1 span.chTitle:after {
 .chapter__body h2 {
 	text-align: left;}
 .chapter__body h2 span.heading__subsection {
+	/*font-size: 21px;*/}
+.chapter__body h3 {
 	font-size: 21px;}
 .chapter__body p {
 	font-family: "sofia-pro", sans-serif;
@@ -106,9 +108,14 @@ h1 span.chTitle:after {
 	grid-column-start: 1;
 	grid-column-end: 10;
 	grid-row-start: 1;}
-.chapter__content h2 {
+.chapter__content h2, 
+.chapter__content h3, 
+.chapter__content h4, 
+.chapter__content h5, 
+.chapter__content h6 {
 	grid-column-start: 1;
-	grid-column-end: 10;}
+	grid-column-end: 10;
+	text-align: left;}
 .chapter__content p, 
 .chapter__content figure.soundfile, 
 .chapter__content blockquote {
@@ -144,20 +151,31 @@ a.texteo_icon {
 	padding-left: 0px;}
 a.texteo_icon_note {
 	background-image: none;}
-p span.figure--reference {
-	font-weight: 500;}
-div.slot {
-	padding-left: 8.33%;}
-div.media_description.pane {
-	font-family: "sofia-pro", sans-serif;
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 1.5;}
 #incoming_comments, 
 #footer {
 	display: none;}
 /***** END CHAPTER SECTION PAGE *****/
 
+/***** FIGURES *****/
+p span.figure--reference {
+	font-weight: 500;}
+div.slot {
+	background-color: transparent;
+	padding-left: 8.33%;}
+div.slot .mediaelement.caption_font {
+	display: flex !important;
+	flex-direction: column;
+	align-items: start;
+	margin-left: 0 !important;}
+div.slot .mediaelement.caption_font .mediaContainer .mediaObject img {
+	height: auto !important;
+	width: 800px !important;}
+.body_copy .caption_font.mediainfo div.media_description.pane {
+	font-family: "sofia-pro", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;}
+/***** END FIGURES *****/
 
 /***** HOME *****/
 #home__toc {
