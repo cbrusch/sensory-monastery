@@ -159,18 +159,24 @@ a.texteo_icon_note {
 /***** FIGURES *****/
 p span.figure--reference {
 	font-weight: 500;}
-div.slot {
+div.slot, 
+div.slot.pillarbox {
 	background-color: transparent;
 	padding-left: 8.33%;}
-div.slot .mediaelement.caption_font {
+div.slot .mediaelement.caption_font, 
+div.slot.pillarbox .mediaelement.caption_font {
 	display: flex !important;
 	flex-direction: column;
 	align-items: start;
 	margin-left: 0 !important;}
 div.slot .mediaelement.caption_font .mediaContainer .mediaObject img {
 	height: auto !important;
-	width: 800px !important;}
-.body_copy .caption_font.mediainfo div.media_description.pane {
+	width: 800px !important;} /* landscape */
+div.slot.pillarbox .mediaelement.caption_font .mediaContainer .mediaObject img {
+	height: 600px !important;
+	width: auto !important;} /* portrait */
+.body_copy .caption_font.mediainfo div.media_description.pane, 
+.body_copy.caption_font.mediainfo div.media_description.pane {
 	font-family: "sofia-pro", sans-serif;
 	font-size: 16px;
 	font-weight: 300;
