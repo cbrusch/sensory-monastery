@@ -60,9 +60,10 @@ h1 {
 	line-height: 2; 
 	padding-top: 250px; 
 	text-align: left;}
-h1 span.chapter__title__section, 
-h1 span.chapter__title__divider {
+h1 span.chSection{
 	display: none;}
+.chapter__sidenav {
+	max-height: 500px;}
 */
 .chapter__body {
 	display: grid;
@@ -153,7 +154,7 @@ div.media_description.pane {
 #incoming_comments, 
 #footer {
 	display: none;}
-/***** CHAPTER SECTION PAGE *****/
+/***** END CHAPTER SECTION PAGE *****/
 
 
 /***** HOME *****/
@@ -246,7 +247,6 @@ figure.soundfile audio {
 /***** TABLE OF CONTENTS, DROPDOWN MENU *****/
 	.tocMenu .expandedPage .description {
 		display: none;}
-	.tocMenu .chapter__title, 
-	.tocMenu .chapter__title__divider {
+	.tocMenu .chTitle{
 		display: none;}
 /***** END TABLE OF CONTENTS, DROPDOWN MENU *****/
