@@ -62,6 +62,8 @@ h1 {
 	text-align: left;}
 h1 span.chSection{
 	display: none;}
+h1 span.chTitle:after {
+	content:"Chapter Title: Subtitle";}
 .chapter__sidenav {
 	max-height: 500px;}
 */
@@ -246,7 +248,5 @@ figure.soundfile audio {
 
 /***** TABLE OF CONTENTS, DROPDOWN MENU *****/
 	.tocMenu .expandedPage .description {
-		display: none;}
-	.tocMenu .chTitle{
 		display: none;}
 /***** END TABLE OF CONTENTS, DROPDOWN MENU *****/
