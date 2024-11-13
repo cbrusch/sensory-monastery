@@ -34,6 +34,128 @@ article.page {
 	display: block;}
 /***** END ABSTRACT *****/
 
+/***** CHAPTER SECTION PAGE *****/
+/* I'm not able to target any of this with just CSS, instead
+it has to be included in the custom CSS modal on every
+individual page in each chapter */
+/*
+article.page {
+	display: flex; 
+	flex-direction: column;
+	font-family: "orpheuspro", serif !important;
+	margin: 5rem 0 0 0;
+	text-align: center;
+	max-width: 100%;}
+article.page header {
+	background-color: #d3d3d3;}
+.path-breadcrumb {
+	display: none;}
+.body_copy {
+	max-width: 100%;}
+.heading_font {
+	font-family: "orpheuspro", serif !important;}
+h1 {
+	align-self: flex-end; 
+	font-feature-settings: "salt"; 
+	line-height: 2; 
+	padding-top: 250px; 
+	text-align: left;}
+h1 span.chapter__title__section, 
+h1 span.chapter__title__divider {
+	display: none;}
+*/
+.chapter__body {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: auto;
+	width: 100%;}
+.chapter__sidenav {
+	background-color: #d3d3d3;
+	grid-column-start: 10;
+	grid-column-end: 13;
+	grid-row-start: 1;
+	max-height: 500px;
+	padding: 20px 10px;
+	text-align: left;}
+.chapter__sidenav p {
+	font-family: "orpheuspro", serif;
+	font-size: 36px;
+	padding-left: 20px;}
+.chapter__sidenav li {
+	list-style: none;}
+.sidenav__current {
+	font-weight: 600;}
+.chapter__body h2 {
+	text-align: left;}
+.chapter__body h2 span.heading__subsection {
+	font-size: 21px;}
+.chapter__body p {
+	font-family: "sofia-pro", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+	text-align: left;
+	max-width: 80%;}
+.chapter__content {
+	display: grid;
+	grid-template-columns: repeat(9, 1fr);
+	grid-template-rows: auto;
+	grid-column-start: 1;
+	grid-column-end: 10;
+	grid-row-start: 1;}
+.chapter__content h2 {
+	grid-column-start: 1;
+	grid-column-end: 10;}
+.chapter__content p, 
+.chapter__content figure.soundfile, 
+.chapter__content blockquote {
+	grid-column-start: 2;
+	grid-column-end: 10;}
+.chapter__content blockquote {
+	max-width: 70%;}
+.chapter__content div.media-sync {
+	display: grid;
+	grid-template-columns: repeat(9, 1fr);
+	grid-template-rows: auto;
+	grid-column-start: 1;
+	grid-column-end: 10;}
+.chapter__content div.media-sync div.sync-media {
+	background-color: #d3d3d3;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	height: 50px;
+	width: 50px;}
+.chapter__content div.media-sync p.sync-text {
+	grid-column-start: 2;
+	grid-column-end: 10;}
+.chapter__content div.media-sync div.sync-media div.slot.wrapped_slot.left_slot div.mediaelement.caption_font {
+	width: 50px !important;}
+.chapter__content div.media-sync div.sync-media div.mediaelement.caption_font div.media_tabs {
+	display: none !important;}
+.chapter__content div.media-sync p.sync-text {
+	grid-column-start: 2;
+	grid-column-end: 10;}
+p span.footnote--reference {
+	font-weight: 500;}
+a.texteo_icon {
+	padding-left: 0px;}
+a.texteo_icon_note {
+	background-image: none;}
+p span.figure--reference {
+	font-weight: 500;}
+div.slot {
+	padding-left: 8.33%;}
+div.media_description.pane {
+	font-family: "sofia-pro", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;}
+#incoming_comments, 
+#footer {
+	display: none;}
+/***** CHAPTER SECTION PAGE *****/
+
+
 /***** HOME *****/
 #home__toc {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6)) , url("../media_large/bkg_toc.png");
@@ -101,6 +223,25 @@ article #home__contents--portals div h3.heading_font span {
 	display: block;
 	font-size: 18px;}
 /***** END HOME *****/
+
+/***** SOUND FILE *****/
+figure.soundfile {
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+	margin: 80px 0;}
+figure.soundfile figcaption {
+	margin: 50px 0;
+	padding: 0 50px;}
+figure.soundfile audio {
+	background-color: none;
+	color: #fff;
+	filter: invert(100%);
+	width: 100%;}
+/***** END SOUND FILE *****/
 
 /***** TABLE OF CONTENTS, DROPDOWN MENU *****/
 	.tocMenu .expandedPage .description {
