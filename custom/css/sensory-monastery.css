@@ -156,6 +156,43 @@ a.texteo_icon_note {
 	display: none;}
 /***** END CHAPTER SECTION PAGE *****/
 
+/***** CUSTOMARY *****/
+.customary {
+	font-family: Garamond, serif;
+	padding: 50px 100px;
+	width: 100vw;}
+.customary h1, 
+.customary h2, 
+.customary h3 {
+	font-family: Garamond, serif !important;}
+.customary h1, 
+.customary h2 {
+	text-align: center;}
+.customary h1 {
+	margin-bottom: 10px;}
+.customary h2 {
+	margin: 0; margin-bottom: 80px;}
+.customary h3 {
+	margin-bottom: 20px;
+	padding: 0;}
+.customary__contents {
+	display: flex;
+	flex-direction: row;}
+.customary__contents>div {
+
+}
+.customary__contents li {
+	font-size: 18px;
+	line-height: 1.3;
+	margin-bottom: 12px;
+	max-width: 90%;}
+.customary__contents--latin {
+	padding-left: 100px;
+	width: 55%;}
+.customary__contents--english {
+	width: 45%;}
+/***** END CUSTOMARY *****/
+
 /***** FIGURES *****/
 p span.figure--reference {
 	font-weight: 500;}
