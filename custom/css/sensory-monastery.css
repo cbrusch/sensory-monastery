@@ -181,6 +181,9 @@ a.texteo_icon_note {
 .customary__contents>div {
 
 }
+.customary__contents ul,
+.customary__contents li {
+	list-style-type: none;}
 .customary__contents li {
 	font-size: 18px;
 	line-height: 1.3;
@@ -191,6 +194,44 @@ a.texteo_icon_note {
 	width: 55%;}
 .customary__contents--english {
 	width: 45%;}
+.customary__page {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: auto;
+	width: 100vw;}
+.customary__sidebar {
+	font-family: Garamond, serif;
+	font-size: 21px;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	line-height: 2.5;
+	padding: 30px 0 30px 50px;}
+.customary__sidebar ul,
+.customary__sidebar li {
+	list-style-type: none;}
+.customary__page-content {
+	font-family: Garamond, serif;
+	grid-column-start: 3;
+	grid-column-end: 13;
+	grid-row-start: 1;
+	padding: 50px 250px;}
+.customary__page-content h1,
+.customary__page-content h2 {
+	font-family: "orpheuspro", serif !important;
+	font-feature-settings: "salt";
+	text-align: center;}
+.customary__page-content h1 {
+	font-size: 18px;
+	margin: 0;}
+.customary__page-content h2 {
+	font-size: 42px;
+	line-height: 1.2;
+	margin: 0;
+	margin-bottom: 50px;}
+.customary__page-content p {
+	font-size: 18px;
+	line-height: 1.8;}
 /***** END CUSTOMARY *****/
 
 /***** FIGURES *****/
