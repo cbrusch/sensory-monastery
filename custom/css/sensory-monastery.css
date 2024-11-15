@@ -232,6 +232,8 @@ a.texteo_icon_note {
 .customary__page-content p {
 	font-size: 18px;
 	line-height: 1.8;}
+.customary__page-content p .roleName {
+	text-decoration: underline;}
 /***** END CUSTOMARY *****/
 
 /***** FIGURES *****/
@@ -328,6 +330,14 @@ article #home__contents--portals div h3.heading_font span {
 	display: block;
 	font-size: 18px;}
 /***** END HOME *****/
+
+/***** LITY CUSTOMIZATION *****/
+.lity-container,
+.lity-content,
+.lity-iframe-container {
+	height: 90vh;
+	max-height:90vh;}
+/***** END LITY CUSTOMIZATION *****/
 
 /***** SOUND FILE *****/
 figure.soundfile {
