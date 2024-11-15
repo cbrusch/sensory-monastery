@@ -234,6 +234,27 @@ a.texteo_icon_note {
 	line-height: 1.8;}
 .customary__page-content p .roleName {
 	text-decoration: underline;}
+.overlay--customary {
+	padding: 0 50px 0 150px;
+	max-width: 80%;}
+.overlay--customary h1,
+.overlay--customary h2 {
+	font-family: "orpheuspro", serif !important;
+	font-feature-settings: "salt";
+	padding: 0;}
+.overlay--customary h1 {
+	margin-bottom: 20px;}
+.overlay--customary h2 {
+	margin-top: 0;}
+.overlay--customary .link--customary {
+	display: block;
+	margin-bottom: 40px;}
+.overlay--customary p {
+	font-family: "sofia-pro", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+	margin-bottom: 30px;}
 /***** END CUSTOMARY *****/
 
 /***** FIGURES *****/
