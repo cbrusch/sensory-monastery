@@ -123,6 +123,8 @@ h1 span.chTitle:after {
 	grid-column-end: 10;}
 .chapter__content blockquote {
 	max-width: 70%;}
+.chapter__content span.smallcaps {
+	font-variant: small-caps;}
 .chapter__content div.media-sync {
 	display: grid;
 	grid-template-columns: repeat(9, 1fr);
