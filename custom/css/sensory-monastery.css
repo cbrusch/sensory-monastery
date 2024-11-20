@@ -268,17 +268,16 @@ p span.figure--reference {
 	font-weight: 500;}
 div.slot, 
 div.slot.pillarbox {
-	background-color: transparent;
-	padding-left: 0;
-	margin-left: 12.5vw;}
+	background-color: transparent;}
 div.slot .mediaelement.caption_font, 
 div.slot.pillarbox .mediaelement.caption_font {
 	display: flex !important;
 	flex-direction: column;
 	align-items: start;
-	margin-left: 12.5vw !important;
-	margin-right: 37.5vw !important;
-	padding-left: 0 !important;}
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding-left: 7.5vw !important;
+	padding-right: 7.5vw !important}
 div.slot .mediaelement.caption_font .mediaContainer .mediaObject img {
 	height: auto !important;
 	width: 800px !important;} /* landscape */
@@ -291,6 +290,24 @@ div.slot.pillarbox .mediaelement.caption_font .mediaContainer .mediaObject img {
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 1.5;}
+div.slot .mediacontainer,
+div.slot.pillarbox .mediacontainer {
+	margin-left: 12.5vw;}
+div.slot { /*large landscape*/
+
+}
+div.slot.pillarbox { /*large portrait*/
+	margin-left: 12.5vw !important;
+	padding-left: 0 !important;
+}
+div.slot.pillarbox .mediaelement.caption_font {
+	padding-left: 0 !important;
+}
+.mediaElementFooter.caption_font.mediainfo {/*landscape caption*/
+	padding-right: 9vw;}
+.body_copy.caption_font.mediainfo {/*portrait caption*/
+	padding-left: 12.5vw;
+	padding-right: 50vw;}
 /***** END FIGURES *****/
 
 /***** FOOTNOTES *****/
