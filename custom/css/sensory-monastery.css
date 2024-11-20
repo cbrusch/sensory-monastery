@@ -113,7 +113,7 @@ h1 span.chTitle:after {
 .chapter__content h4, 
 .chapter__content h5, 
 .chapter__content h6 {
-	grid-column-start: 1;
+	grid-column-start: 2;
 	grid-column-end: 10;
 	text-align: left;}
 .chapter__content p, 
@@ -265,13 +265,16 @@ p span.figure--reference {
 div.slot, 
 div.slot.pillarbox {
 	background-color: transparent;
-	padding-left: 8.33%;}
+	padding-left: 0;
+	margin-left: 12.5vw;}
 div.slot .mediaelement.caption_font, 
 div.slot.pillarbox .mediaelement.caption_font {
 	display: flex !important;
 	flex-direction: column;
 	align-items: start;
-	margin-left: 0 !important;}
+	margin-left: 12.5vw !important;
+	margin-right: 37.5vw !important;
+	padding-left: 0 !important;}
 div.slot .mediaelement.caption_font .mediaContainer .mediaObject img {
 	height: auto !important;
 	width: 800px !important;} /* landscape */
@@ -285,6 +288,11 @@ div.slot.pillarbox .mediaelement.caption_font .mediaContainer .mediaObject img {
 	font-weight: 300;
 	line-height: 1.5;}
 /***** END FIGURES *****/
+
+/***** FOOTNOTES *****/
+span.smallcaps {
+	font-variant: small-caps;}
+/***** END FOOTNOTES *****/
 
 /***** HOME *****/
 #home__toc {
