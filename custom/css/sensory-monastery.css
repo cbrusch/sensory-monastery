@@ -278,12 +278,12 @@ div.slot.pillarbox .mediaelement.caption_font {
 	margin-right: 0 !important;
 	padding-left: 7.5vw !important;
 	padding-right: 7.5vw !important}
-div.slot .mediaelement.caption_font .mediaContainer .mediaObject img {
+div.slot .mediaelement.caption_font .mediaContainer .mediaObject img { /* large landscape img */
 	height: auto !important;
-	width: 800px !important;} /* landscape */
-div.slot.pillarbox .mediaelement.caption_font .mediaContainer .mediaObject img {
+	width: 800px !important;}
+div.slot.pillarbox .mediaelement.caption_font .mediaContainer .mediaObject img { /* large portrait img */
 	height: 600px !important;
-	width: auto !important;} /* portrait */
+	width: auto !important;}
 .body_copy .caption_font.mediainfo div.media_description.pane, 
 .body_copy.caption_font.mediainfo div.media_description.pane {
 	font-family: "sofia-pro", sans-serif;
@@ -300,14 +300,26 @@ div.slot.pillarbox { /*large portrait*/
 	margin-left: 12.5vw !important;
 	padding-left: 0 !important;
 }
+.body_copy div.slot {/*small portrait*/
+
+}
+/* small portrait img 
+.body_copy div.slot .mediaelement.caption_font .mediaContainer .mediaObject img {
+	height: 300px !important;
+	width: auto !important;}
+*/
 div.slot.pillarbox .mediaelement.caption_font {
 	padding-left: 0 !important;
 }
-.mediaElementFooter.caption_font.mediainfo {/*landscape caption*/
+.mediaElementFooter.caption_font.mediainfo {/*large landscape caption*/
 	padding-right: 9vw;}
 .body_copy.caption_font.mediainfo {/*portrait caption*/
 	padding-left: 12.5vw;
 	padding-right: 50vw;}
+/*small portrait caption
+.body_copy div.slot .mediaElementFooter.caption_font.mediainfo {
+	padding-right: 0;}
+*/
 /***** END FIGURES *****/
 
 /***** FOOTNOTES *****/
