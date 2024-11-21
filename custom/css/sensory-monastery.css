@@ -116,6 +116,10 @@ h1 span.chTitle:after {
 	grid-column-start: 2;
 	grid-column-end: 10;
 	text-align: left;}
+.body_copy .chapter__content h2 {
+	margin-top: 6rem;}
+.body_copy .chapter__content h3 {
+	margin-top: 0;}
 .chapter__content p, 
 .chapter__content figure.soundfile, 
 .chapter__content blockquote {
@@ -264,6 +268,11 @@ a.texteo_icon_note {
 /***** END CUSTOMARY *****/
 
 /***** FIGURES *****/
+/* inline image reference */
+.chapter__content .texteo_icon_image {
+	background-image: none;}
+p .media_link {
+	background-color: transparent;}
 p span.figure--reference {
 	font-weight: 500;}
 div.slot, 
