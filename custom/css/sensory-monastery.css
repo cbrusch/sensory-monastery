@@ -278,29 +278,28 @@ div.slot.pillarbox .mediaelement.caption_font {
 	margin-right: 0 !important;
 	padding-left: 7.5vw !important;
 	padding-right: 7.5vw !important}
-div.slot .mediaelement.caption_font .mediaContainer .mediaObject img { /* large landscape img */
+/* large landscape img */
+div.slot .mediaelement.caption_font .mediaContainer .mediaObject img {
 	height: auto !important;
 	width: 800px !important;}
-div.slot.pillarbox .mediaelement.caption_font .mediaContainer .mediaObject img { /* large portrait img */
+/* large portrait img */
+div.slot.pillarbox .mediaelement.caption_font .mediaContainer .mediaObject img {
 	height: 600px !important;
 	width: auto !important;}
-.body_copy .caption_font.mediainfo div.media_description.pane, 
-.body_copy.caption_font.mediainfo div.media_description.pane {
-	font-family: "sofia-pro", sans-serif;
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 1.5;}
 div.slot .mediacontainer,
 div.slot.pillarbox .mediacontainer {
 	margin-left: 12.5vw;}
-div.slot { /*large landscape*/
+/*large landscape*/
+div.slot {
 
 }
-div.slot.pillarbox { /*large portrait*/
+/*large portrait*/
+div.slot.pillarbox {
 	margin-left: 12.5vw !important;
 	padding-left: 0 !important;
 }
-.body_copy div.slot {/*small portrait*/
+/*small portrait*/
+.body_copy div.slot {
 
 }
 /* small portrait img 
@@ -311,15 +310,31 @@ div.slot.pillarbox { /*large portrait*/
 div.slot.pillarbox .mediaelement.caption_font {
 	padding-left: 0 !important;
 }
-.mediaElementFooter.caption_font.mediainfo {/*large landscape caption*/
+/*large landscape caption*/
+.mediaElementFooter.caption_font.mediainfo {
 	padding-right: 9vw;}
-.body_copy.caption_font.mediainfo {/*portrait caption*/
+/*portrait caption*/
+.body_copy.caption_font.mediainfo {
 	padding-left: 12.5vw;
 	padding-right: 50vw;}
 /*small portrait caption
 .body_copy div.slot .mediaElementFooter.caption_font.mediainfo {
 	padding-right: 0;}
 */
+/* captions */
+.body_copy .caption_font.mediainfo div.media_description.pane,
+.body_copy.caption_font.mediainfo div.media_description.pane, 
+.body_copy .caption_font.mediainfo div.media_description.pane a,
+.body_copy.caption_font.mediainfo div.media_description.pane a {
+	color: #333;
+	font-family: "sofia-pro", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 50px;}
+.body_copy .caption_font.mediainfo div.media_description.pane,
+.body_copy.caption_font.mediainfo div.media_description.pane {
+	font-weight: 600;}
+
 /***** END FIGURES *****/
 
 /***** FOOTNOTES *****/
