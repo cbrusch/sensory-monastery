@@ -95,8 +95,10 @@ h1 span.chTitle:after {
 	line-height: 1.3;
 	list-style: none;
 	margin-bottom: 10px;}
-.chapter__sidenav li>ul {
+.chapter__sidenav li > ul {
 	margin-top: 10px;}
+.chapter__sidenav a {
+	color: black;}
 .sidenav__current {
 	font-weight: 600;}
 .chapter__body h2 {
@@ -131,6 +133,8 @@ h1 span.chTitle:after {
 	margin-top: 6rem;}
 .body_copy .chapter__content h3 {
 	margin-top: 0;}
+.chapter__content > p {
+	line-height: 1.7;}
 .chapter__content p, 
 .chapter__content figure.soundfile, 
 .chapter__content blockquote {
