@@ -175,6 +175,32 @@ a.texteo_icon_note {
 #incoming_comments, 
 #footer {
 	display: none;}
+section.relationships {
+	border-top: 1px solid black;
+	max-width: 90vw;}
+section.relationships p.container {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0;
+	width: 90vw;}
+section.relationships p.container div {
+	width: 50%;}
+section.relationships p.container div:nth-child(1) {
+	text-align: left;}
+section.relationships p.container div:nth-child(2) {
+	text-align: right;}
+a.nav_btn {
+	background-color: white;}
+a#back-btn.nav_btn {
+	padding-top: 0;
+	padding-bottom: 0;}
+a.nav_btn.primary {
+	background-color: white;
+	color: black;
+	font-family: "orpheuspro", serif !important;
+	font-weight: 600;}
+
 /***** END CHAPTER SECTION PAGE *****/
 
 /***** CUSTOMARY *****/
