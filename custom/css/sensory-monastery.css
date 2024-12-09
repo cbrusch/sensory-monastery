@@ -444,8 +444,9 @@ article #home__contents--portals div h3.heading_font span {
 
 /***** SOUND FILE *****/
 figure.soundfile {
-	background-color: black;
-	color: white;
+	background-color: white;
+	border: 1px solid black;
+	color: black;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -457,7 +458,8 @@ figure.soundfile figcaption {
 figure.soundfile audio {
 	background-color: none;
 	color: #fff;
-	filter: invert(100%);
+	/*filter: invert(100%);*/
+	filter: none;
 	width: 100%;}
 /***** END SOUND FILE *****/
 
