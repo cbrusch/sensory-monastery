@@ -203,8 +203,8 @@ a.nav_btn.primary {
 	color: black;
 	font-family: "orpheuspro", serif !important;
 	font-weight: 600;}
-.relationships h1,
-.relationships ol {
+article.page .relationships h1,
+article.page .relationships ol {
 	display: none;}
 /*section.relationships:nth-of-type(odd) {
 	display: none;*/
