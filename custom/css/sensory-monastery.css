@@ -31,7 +31,10 @@ article.page {
 	align-items: center;
 	justify-content: space-between;}
 .footer--abstract a {
-	display: block;}
+	color: black;
+	display: block;
+	font-family: "orpheuspro", serif !important;
+	font-weight: 600;}
 /***** END ABSTRACT *****/
 
 /***** CHAPTER SECTION PAGE *****/
@@ -200,6 +203,12 @@ a.nav_btn.primary {
 	color: black;
 	font-family: "orpheuspro", serif !important;
 	font-weight: 600;}
+.relationships h1,
+.relationships ol {
+	display: none;}
+/*section.relationships:nth-of-type(odd) {
+	display: none;*/
+}
 
 /***** END CHAPTER SECTION PAGE *****/
 
